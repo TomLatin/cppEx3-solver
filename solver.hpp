@@ -56,7 +56,6 @@ namespace solver
         //Parameters constructor
         ComplexVariable(double realNum,double imaginaryNum);
 
-
         /**All the operators of ComplexVariable**/
         //multiplication
         friend ComplexVariable& operator*(const double number,ComplexVariable& y); // For arguments like: number*y
